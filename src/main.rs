@@ -1,5 +1,6 @@
 mod answer_1574;
 mod answer_1626;
+mod answer_2395;
 
 use std::cell::RefCell;
 use std::collections::HashMap;
