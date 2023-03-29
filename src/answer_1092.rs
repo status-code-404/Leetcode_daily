@@ -3,6 +3,8 @@ use std::cell::RefCell;
 use std::collections::HashMap;
 use std::sync::Mutex;
 use crate::answer_1092::answer_1092::answer;
+#[recursion_limit = "2000"]
+
 
 struct S(String);
 
@@ -28,6 +30,7 @@ pub mod answer_1092{
     use std::collections::HashMap;
     use std::ops::Add;
     use crate::answer_1092::{Hashmap, String1, String2};
+
 
     pub fn dfs(index_left: i32, index_right: i32) -> String{
         let mut hash = Hashmap.lock().unwrap();
