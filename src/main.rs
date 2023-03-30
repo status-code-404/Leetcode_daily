@@ -3,6 +3,7 @@ mod answer_1626;
 mod answer_2395;
 mod answer_1638;
 mod answer_1092;
+mod answer_1637;
 
 use std::cell::RefCell;
 use std::collections::HashMap;
