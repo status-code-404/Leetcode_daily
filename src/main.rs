@@ -4,6 +4,7 @@ mod answer_2395;
 mod answer_1638;
 mod answer_1092;
 mod answer_1637;
+mod answer_1019;
 
 use std::cell::RefCell;
 use std::collections::HashMap;
