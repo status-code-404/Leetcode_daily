@@ -5,6 +5,7 @@ mod answer_1638;
 mod answer_1092;
 mod answer_1637;
 mod answer_1019;
+mod answer_1023;
 
 use std::cell::RefCell;
 use std::collections::HashMap;
@@ -15,15 +16,13 @@ use crate::answer_1626::answer_1626::answer;
 
 
 fn main(){
-    println!("Hello world");
-    let mut a = vec![1,2,3,4,5];
-    a.remove(0);
-    println!("{:?}", a);
-    a.remove(0);
-    println!("{:?}", a);
-    println!("{}", dfs(vec![[1,5], [1,5], [2,4], [2,6]], -1));
-
-    println!("{}", answer(vec![4,5,6,5], vec![2,1,2,1]));
+    let mut a = 0;
+    println!("{}", (a - 1) % 4);
+    let mut h = String::from("ZHello world");
+    let mut t = &h[1..2];
+    println!("{}", t.as_bytes()[0]);
+    let m = h.as_bytes();
+    println!("{}", m[2]);
     // let p = solute(vec![1,2,3,10,0,7,8,9]);
     // println!("{}", p)
 }

@@ -14,11 +14,16 @@ impl ListNode {
   }
 }
 
-impl Solution {
+mod solution1019 {
+  use std::collections::HashSet;
+  use crate::answer_1019::ListNode;
+
   pub fn next_larger_nodes(head: Option<Box<ListNode>>) -> Vec<i32> {
     let mut now_index = 0;
     let mut stack_:Vec<[i32;2]> = Vec::new();
     let mut return_:Vec<i32> = Vec::new();
+
+
 
     let mut head1 = head;
     while head1 != None{
