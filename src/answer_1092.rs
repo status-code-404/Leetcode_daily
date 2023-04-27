@@ -33,11 +33,7 @@ pub mod answer_1092{
 
 
     pub fn dfs(index_left: i32, index_right: i32) -> String{
-
-
-
         let mut hash = Hashmap.lock().unwrap();
-
         match hash.get_mut().get(&[index_left.clone(), index_right.clone()]) {
             Some(string) => {return string.clone();},
             _ =>{},
