@@ -1,3 +1,4 @@
+#![allow(unused_imports)]
 mod answer_1574;
 mod answer_1626;
 mod answer_2395;
@@ -7,6 +8,7 @@ mod answer_1637;
 mod answer_1019;
 mod answer_1023;
 mod answer_1031;
+mod answer_1048;
 
 use std::cell::RefCell;
 use std::clone::Clone;
@@ -29,6 +31,13 @@ fn main(){
     let mut a = 0;
     println!("{}", (a - 1) % 4);
     let mut h = String::from("ZHello world");
+
+
+
+    let mut _m = vec![String::from("1234"), String::from("5678")];
+
+    let k = h.as_bytes();
+    println!("{}", k[5]);
     let mut t = &h[1..2];
     println!("{}", t.as_bytes()[0]);
     let m = h.as_bytes();
